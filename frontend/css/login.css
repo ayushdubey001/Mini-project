@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #2d3748, #1a202c, #000);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background: #2d3748;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.container h2 {
+    margin-bottom: 10px;
+    color: #facc15;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.container p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #a0aec0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #4a5568;
+    border-radius: 5px;
+    background: #1a202c;
+    color: #fff;
+    font-size: 14px;
+}
+
+form input:focus {
+    border-color: #38bdf8;
+    outline: none;
+}
+
+form button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #38bdf8;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #facc15;
+}
+
+
+
+.divider {
+    margin: 20px 0;
+    color: #a0aec0;
+    font-size: 14px;
+}
+
+.alternate {
+    font-size: 14px;
+    color: #a0aec0;
+}
+
+.alternate a {
+    color: #38bdf8;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.alternate a:hover {
+    color: #facc15;
+}
+
+.sideLogo{
+    line-height: 10px;
+    margin-left: 100px;
+}
+
+.sideLogo h1{
+    color:#facc15 ;
+}

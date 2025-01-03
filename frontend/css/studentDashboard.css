@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background: #0A7857;
+    display: flex;
+    justify-content: center;
+    border-radius:10% ;
+    position: sticky; 
+    top: 0;
+    padding: 5px 0;
+    z-index: 1000;
+
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color:#F4C10F ;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.main{
+    display: flex;
+}
+
+.sideBar{
+    margin-top: -15px;
+    height: 100vh;
+    width: 350px;
+    background: linear-gradient(to bottom right, #2d3748, #1a202c, #000);
+    padding: 30px 15px;
+    border-radius: 10px;
+}
+
+.sideBar h1{
+    background: linear-gradient(to right, #1dd9d5, #f8d44d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sideBar p{
+    color: white;
+    font-size: 15px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn{
+    height: 60px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #1dd9d5, #f8d44d);
+    color: white;
+    font-size: 20px;
+    text-align: start;
+    padding: 20px;
+}
+
+.btn:hover{
+    background-color: #000;
+}
+
+.mainBar{
+    height: 250px;
+    width: 1200px;
+    background: linear-gradient(to bottom right, #2d3748, #1a202c, #000);
+    margin: 30px 50px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.mainBar h1{
+    color: #38bdf8;
+}
+
+
+
+.subInfo{
+   display: flex;
+   gap: 10px;
+   align-items: center;
+   padding-left: 20px;
+   
+}
+
+.subInfo i{
+    font-size: 25px;
+    color:#38bdf8 ;
+}
+
+
+.subInfo p{
+    color:#F4C10F ;
+    font-size: 18px;
+}
+
+
+
+
+
+
